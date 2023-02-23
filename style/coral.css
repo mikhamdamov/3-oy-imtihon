@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.flex {
+  display: flex;
+  gap: 10px;
+}
+.container {
+  width: 80vw;
+  margin: auto;
+}
+.grid{
+    display: grid;
+    grid-template: 250px 250px/2fr 1fr 1fr;
+    gap: 0.5rem;
+}
+.la img{
+  width: 576px;
+  height: 407px;
+}
+.ma  img , .ja {
+  width: 268px;
+  height: 210px;
+}
+.zaa{
+  height: 210px;
+}
+.ap{
+  display: none;
+}
+.la:hover .ap{
+  display: flex;
+}
+.apa{
+  display: none;
+}
+.sa:hover .apa{
+  display: flex;
+}
+.a{
+  display: none;
+}
+.m{
+  display: none;
+}
+.da:hover .a{
+  display: flex;
+  position: absolute;
+  margin-top: -40px;
+}
+.p{
+  display: none;
+}
+.ga:hover .p{
+  display: flex;
+}
+.ma{
+  position: relative;
+  display: none;
+}
+.ma:hover .m{
+  position: absolute;
+  margin-top: -40px;
+  display: flex;
+}
